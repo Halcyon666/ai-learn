@@ -1,5 +1,5 @@
 {
   "editor.suggest.snippetsPreventQuickSuggestions": false,
-  "aiXcoder.showTrayIcon": true,
+  "editor.inlineSuggest.enabled": false,
   "git.ignoreLimitWarning": true
 }
