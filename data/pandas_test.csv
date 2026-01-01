@@ -1,0 +1,22 @@
+user_id,event_type,event_time,page,duration
+1001,login,2024-06-01 09:00:01,home,None
+1001,login,2024-06-01 09:00:01,home,
+1001,login,2024-06-01 09:00:31,home,
+1002,view,2024-06-01 09:03:15,product,12
+1003,view,2024-06-01 09:05:42,product,8
+1002,click,2024-06-01 09:06:10,product,
+1001,view,2024-06-01 09:10:05,search,5
+1004,login,2024-06-01 09:12:00,home,
+1003,click,2024-06-01 09:15:33,product,3
+1003,click,2024-06-01 09:15:33,product,3
+1002,logout,2024-06-01 09:20:00,home,
+1001,click,2024-06-01 09:25:48,search,7
+1004,view,2024-06-01 09:30:10,product,15
+1005,login,2024-06-01 10:01:00,home,
+1005,view,2024-06-01 10:02:30,product,
+1001,logout,2024-06-01 10:05:00,home,
+1002,view,2024-06-01 10:07:45,search,4
+1003,logout,2024-06-01 10:10:00,home,
+1004,click,2024-06-01 10:15:20,product,6
+1005,click,2024-06-01 10:18:55,product,9
+1005,logout,2024-06-01 10:25:00,home,
