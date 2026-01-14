@@ -8,7 +8,7 @@ conda remove -n <environment_name> --all -y
 
 cd /d D:\project\backend\ai-learn
 conda env create -f environment.yml
-conda activate ai-pre-course
+conda activate ai-env
 
 conda env remove -n ai-env
 
