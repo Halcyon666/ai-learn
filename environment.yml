@@ -21,10 +21,10 @@ dependencies:
       - torchaudio==2.6.0
 
       # Transformers
-      - transformers>=4.46.0  
-      - accelerate>=0.26.0 
-      - tokenizers>=0.20.0    
-      - sentence-transformers>=3.0.0 
+      - transformers>=4.46.0
+      - accelerate>=0.26.0
+      - tokenizers>=0.20.0
+      - sentence-transformers>=3.0.0
       - safetensors>=0.4.5
       - huggingface-hub>=0.26.0
 
@@ -36,8 +36,10 @@ dependencies:
       - filelock
       - fsspec
       - typing-extensions
+      - python-dotenv==1.0.1
+      - grandalf==0.8
 
-      # langchain
+      # langchain ecosystem
       - langchain==0.3.27
       - langchain-community==0.3.27
       - langchain-core==0.3.74
@@ -45,6 +47,10 @@ dependencies:
       - langchain-text-splitters==0.3.9
       - tiktoken==0.7.0
       - langchain-huggingface==0.1.0
+      
+      # langgraph
+      - langgraph==0.2.74
+      - langgraph-checkpoint==2.0.12
 
       # vector db
       - pymilvus>=2.4.0
