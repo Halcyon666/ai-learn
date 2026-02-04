@@ -1,6 +1,13 @@
 # Start Up
 
 ```shell
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r/
+conda config --set show_channel_urls yes
+```
+
+```shell
 conda install <package_name>
 conda list
 
@@ -8,6 +15,9 @@ conda list
 conda remove -n <environment_name> --all -y
 
 cd /d D:\project\backend\ai-learn
+
+# Collecting package metadata (repodata.json): \ Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)': /pkgs/main/noarch/repodata.json.zst
+# try with global proxy!
 
 # 安装依赖
 conda env create -f environment.yml
