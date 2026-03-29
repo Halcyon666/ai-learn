@@ -42,7 +42,7 @@ python mcp-client.py
 
 ```
 
-# Repository Contents
+## Repository Contents
 
 ```text
 README.md

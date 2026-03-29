@@ -1,33 +1,24 @@
 name: ai-env
 
 channels:
-  - pytorch
   - conda-forge
   - defaults
 
 dependencies:
-  # --- Core ---
   - python=3.10
   - pip
-
-  # --- Scientific Stack ---
   - numpy=1.26.4
   - scipy=1.11.4
   - scikit-learn=1.2.2
   - pandas=2.1.1
-
-  # --- Visualization ---
   - matplotlib=3.7.2
   - seaborn=0.12.2
-
-  # --- Jupyter ---
   - ipywidgets=7.7.1
 
-  # --- PyTorch (CRITICAL: conda only) ---
-  - pytorch=2.6.0
-  - torchvision=0.21.0
-  - torchaudio=2.6.0
+  - pip:
+      - torch==2.6.0
+      - torchvision==0.21.0
+      - torchaudio==2.6.0
+      - --index-url https://download.pytorch.org/whl/cu124
 
-  # 👉 二选一（必须选）
-  - cpuonly
-  # - pytorch-cuda=12.1
+      
