@@ -41,3 +41,57 @@ conda activate ai-env
 python mcp-client.py
 
 ```
+
+# Repository Contents
+
+```text
+README.md
+environment.yml
+requirements-pip.txt
+basic/
+  01-learn-pandas.ipynb
+  02-numpy.ipynb
+  03-pytorch.ipynb
+  04-transformers.ipynb
+  05-langchain.ipynb
+  06-state-graph.ipynb
+  07-neo4j.ipynb
+  data-strruct.ipynb
+  daily-python.ipynb
+  loop-and-function.ipynb
+data/
+  20251130_833918931_MiFitness_hlth_center_aggregated_fitness_data.csv
+  20251130_833918931_MiFitness_hlth_center_fitness_data.csv
+  atlantis.csv
+  atlantis_modified.csv
+  atlantis_modified.json
+  atlantis_modified.xlsx
+  pandas_test.csv
+imgs/
+  image1.png
+  image2.png
+  image3.png
+langchain/
+  Data.csv
+  L1-Model-Parser.ipynb
+  L2-Memory.ipynb
+  L3-Chains.ipynb
+  L4-QnA.ipynb
+  L5-Evaluation.ipynb
+  L6-Agent.ipynb
+  OutdoorClothingCatalog_1000.csv
+  image.png
+  ollama command.md
+  faiss_index/
+    index.faiss
+    index.pkl
+  images/
+    image.png
+notebooks/
+  matplotlib.ipynb
+  population.ipynb
+  stability.ipynb
+simple-mcp/
+  mcp-client.py
+  mcp-server.py
+```
